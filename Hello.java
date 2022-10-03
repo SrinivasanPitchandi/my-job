@@ -1,8 +1,16 @@
 class Hello
 {
-public static void main(String args[]){
-int a=10,b=20;
-  System.out.println(a+b);
-}
+public static void main(String[] args)
+   {
+      int i, j;
+      for(i=0; i<5; i++)
+      {
+         for(j=0; j<=i; j++)
+         {
+            System.out.print("* ");
+         }
+         System.out.print("\n");
+      }
+   }
   
 }
